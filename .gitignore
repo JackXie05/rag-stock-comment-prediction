@@ -1,0 +1,31 @@
+# MacOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Data folders (should not upload raw or processed stock comments)
+data/raw/
+data/processed/
+
+# Model weights
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# VSCode / Cursor settings
+.vscode/
